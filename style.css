@@ -11,4 +11,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 30px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.name {
+    font-size: 60px;
+    border-bottom: 4px solid white;
+    border-radius: 2px;
+    padding-bottom: 5px;
+    margin-right: 8px;
+}
+
+.tagline {
+    font-size: 30px;
+    background-color: rgba(211, 211, 211, 0.25);
+    padding: 10px 15px;
+    border-radius: 15px;
 }
